@@ -27,13 +27,16 @@ The purpose of this analysis was to create a binary classifier that would be eff
 - **What steps did you take in your attempts to increase model performance?**
   - I removed features, increased epochs, increased layers, and none of those efforts improved the model beyond 73% effectiveness.
 
-    
+ **Confusion Matrix Model 1**   
 ![Confusion Matrix Model 1](https://github.com/HMiesbauer/deep_learning_challenge/assets/150979374/25250545-c1fc-455e-b12e-0b9fde66bd0f)
 
+**Confusion Matrix Model 3**
 ![Confusion Matrix Model 3](https://github.com/HMiesbauer/deep_learning_challenge/assets/150979374/869ff9cd-4714-4651-a2cd-f3704e9209d0)
   
-# Summary
+## Summary
 
-** Overall, the intial model produced satisfactory results even though it didn't achieve target performance. I could have used a Gradient Booster Classifier which would have included feature importance scores. This would have allowed me to optimize the model with the higher feature scores thus improving the overall model efficiency. <br>
+Overall, the intial model produced satisfactory results even though it didn't achieve target performance. 
+I could have used a Gradient Booster Classifier which would have included feature importance scores. This would have allowed me to optimize the model with the higher feature scores thus improving the overall model efficiency. <br>
 
+**SHAP Summary Plot**
 ![SHAP Summary Plot](https://github.com/HMiesbauer/deep_learning_challenge/assets/150979374/33afca65-6719-490a-b2f6-788c8d201afa)
